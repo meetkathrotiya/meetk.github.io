@@ -1,0 +1,45 @@
+{
+  "name": "vercel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.10",
+    "@headlessui/react": "^1.7.17",
+    "@react-spring/web": "^9.7.3",
+    "@oberon-amsterdam/horizontal": "1.0.3",
+    "cobe": "^0.6.3",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.7",
+    "framer-motion": "^10.16.4",
+    "gsap": "^3.6.1",
+    "locomotive-scroll": "^5.0.0-beta.8",
+    "next": "13.4.7",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.6.0",
+    "react-spring": "^9.7.2",
+    "react-three-fiber": "^6.0.13",
+    "slick-carousel": "^1.8.1",
+    "three": "^0.156.1",
+    "three-globe": "^2.18.8",
+    "three-glow-mesh": "^0.1.2"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.40.1",
+    "autoprefixer": "^10.4.14",
+    "file-loader": "^6.2.0",
+    "json-loader": "^0.5.7",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
